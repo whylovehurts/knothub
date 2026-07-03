@@ -1,0 +1,18 @@
+# Root-level files to ignore
+/example.lua
+/lib.lua
+/main.lua
+/prompt.md
+
+# Old root src (pulled from remote previously)
+/src/
+
+# Game folders without PlaceId
+/Break Backrooms/
+/Eat Slimes to Grow HUGE/
+
+# IDE
+.vscode/
+
+# Scratch/temp
+*.py
