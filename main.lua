@@ -70,7 +70,7 @@ end)
 --------------------------------------------------------------------------------
 -- Load Controller (Backend)
 --------------------------------------------------------------------------------
-local Controller = loadstring(game:HttpGet("https://raw.githubusercontent.com/whylovehurts/knothub/refs/heads/main/Anime%20Limitless%20(99383863544987)/src/controller.luau"))()
+local Controller = loadstring(game:HttpGet("https://raw.githubusercontent.com/whylovehurts/knothub/refs/heads/main/src/controller.luau"))()
 
 --------------------------------------------------------------------------------
 -- Expose Library to Controller (for Unloaded checks)
