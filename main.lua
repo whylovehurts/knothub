@@ -70,7 +70,7 @@ end)
 --------------------------------------------------------------------------------
 -- Load Controller (Backend)
 --------------------------------------------------------------------------------
-local Controller = loadstring(readfile("KnotHub/Anime Limitless/src/controller.luau"))()
+local Controller = loadstring(readfile("/src/controller.luau"))()
 
 --------------------------------------------------------------------------------
 -- Expose Library to Controller (for Unloaded checks)
