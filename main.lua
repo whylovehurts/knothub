@@ -70,7 +70,7 @@ end)
 --------------------------------------------------------------------------------
 -- Load Controller (Backend)
 --------------------------------------------------------------------------------
-local Controller = loadstring(readfile("/src/controller.luau"))()
+local Controller = loadstring(game:HttpGet("https://raw.githubusercontent.com/whylovehurts/knothub/refs/heads/main/src/controller.luau"))()
 
 --------------------------------------------------------------------------------
 -- Expose Library to Controller (for Unloaded checks)
